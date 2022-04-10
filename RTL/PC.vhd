@@ -18,7 +18,7 @@ begin
 	PC_proc: process(CLK, RST)			
 	begin
 		if RST='0' then					
-			PC_OUT<=X"00400000";			--initialize de PC to the first instruction
+			PC_OUT<=X"00400000";			--initialize the PC to the first instruction
 		elsif )CLK'event and CLK = '1') then 		--otherwise if there is a positive clock edge
 			if EN='1' then				--and enable is active
 				PC_OUT <= PC_IN; 		--writes the input on the output
