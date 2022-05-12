@@ -7,7 +7,7 @@ use work.RISCV_package.all ;
 
 entity IRAM is
     port(
-        DATA_OUT : out word ;
+       		DATA_OUT : out word ;
 		ADDR     : in halfword ;
 		CS       : in std_logic --chip select
     );
@@ -45,7 +45,7 @@ begin
 		variable n_byte      : integer := 0;
 		variable instruction : word;
     begin
-        file_open ( file_to_read ," test . hex ", READ_MODE );
+        file_open ( file_to_read ," test_standard.hex ", READ_MODE );
         while (not endfile ( file_to_read )) loop
             readline ( file_to_read , file_line );
             hread ( file_line , instruction );
