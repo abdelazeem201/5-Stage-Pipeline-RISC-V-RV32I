@@ -1,0 +1,379 @@
+D:/RISCV/simulation/HDU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/HDU.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Loading package HDU_package
+-- Compiling entity HDU
+-- Compiling architecture behavioral of HDU
+
+} {} {}} D:/RISCV/simulation/my_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/my_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling package my_package
+-- Compiling package body my_package
+-- Loading package my_package
+
+} {} {}} D:/RISCV/simulation/G_block.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/G_block.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity G_BLOCK
+-- Compiling architecture STRUCTURAL of G_BLOCK
+
+} {} {}} D:/RISCV/simulation/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/ALU.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Compiling entity ALU
+-- Compiling architecture behavioral of ALU
+
+} {} {}} D:/RISCV/simulation/RISCV_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/RISCV_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package RISCV_package
+-- Compiling package body RISCV_package
+-- Loading package RISCV_package
+
+} {} {}} D:/RISCV/simulation/carry_select_block.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/carry_select_block.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity carry_select_block
+-- Compiling architecture structural of carry_select_block
+
+} {} {}} D:/RISCV/simulation/FU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/FU.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Loading package FU_package
+-- Compiling entity FU
+-- Compiling architecture behavioral of FU
+
+} {} {}} D:/RISCV/simulation/CU_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/CU_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package RISCV_package
+-- Compiling package CU_package
+
+} {} {}} D:/RISCV/simulation/clk_gen.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/clk_gen.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clk_gen
+-- Compiling architecture behavioural of clk_gen
+
+} {} {}} D:/RISCV/simulation/DRAM.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/DRAM.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package RISCV_package
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package CU_package
+-- Compiling entity DRAM
+-- Compiling architecture behavioral of DRAM
+
+} {} {}} D:/RISCV/simulation/reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/reg.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture behavioral of reg
+
+} {} {}} D:/RISCV/simulation/RISCV.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/RISCV.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package CU_package
+-- Loading package FU_package
+-- Loading package HDU_package
+-- Compiling entity RISCV
+-- Compiling architecture structural of RISCV
+
+} {} {}} D:/RISCV/simulation/BPU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/BPU.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Compiling entity BPU
+-- Compiling architecture behavioral of BPU
+
+} {} {}} D:/RISCV/simulation/carry_generator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/carry_generator.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity carry_generator
+-- Compiling architecture structural of carry_generator
+
+} {} {}} D:/RISCV/simulation/MUX_2to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/MUX_2to1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX_2to1
+-- Compiling architecture behavioral of MUX_2to1
+
+} {} {}} D:/RISCV/simulation/CU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/CU.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package CU_package
+-- Compiling entity CU
+-- Compiling architecture behavioral of CU
+
+} {} {}} D:/RISCV/simulation/logic_block.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/logic_block.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Compiling entity logic_block
+-- Compiling architecture structural of logic_block
+
+} {} {}} D:/RISCV/simulation/comparator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/comparator.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity comparator
+-- Compiling architecture structural of comparator
+
+} {} {}} D:/RISCV/simulation/PG_block.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/PG_block.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PG_BLOCK
+-- Compiling architecture STRUCTURAL of PG_BLOCK
+
+} {} {}} D:/RISCV/simulation/MUX_4to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/MUX_4to1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX_4to1
+-- Compiling architecture behavioral of MUX_4to1
+
+} {} {}} D:/RISCV/simulation/PC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/PC.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Compiling entity PC
+-- Compiling architecture behavioral of PC
+
+} {} {}} D:/RISCV/simulation/IR.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/IR.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Compiling entity IR
+-- Compiling architecture behavioral of IR
+
+} {} {}} D:/RISCV/simulation/sum_generator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/sum_generator.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sum_generator
+-- Compiling architecture structural of sum_generator
+
+} {} {}} D:/RISCV/src/tb/TB_RISCV.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/src/tb/TB_RISCV.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package RISCV_package
+-- Compiling entity TB_RISCV
+-- Compiling architecture test of TB_RISCV
+
+} {} {}} D:/RISCV/simulation/branch_comp.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/branch_comp.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package RISCV_package
+-- Loading package CU_package
+-- Compiling entity branch_comp
+-- Compiling architecture behavioral of branch_comp
+
+} {} {}} D:/RISCV/simulation/barrel_shifter.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/barrel_shifter.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity barrel_shifter
+-- Compiling architecture structural of barrel_shifter
+
+} {} {}} D:/RISCV/simulation/HDU_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/HDU_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package HDU_package
+
+} {} {}} D:/RISCV/simulation/ALU_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/ALU_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Compiling package ALU_package
+
+} {} {}} D:/RISCV/simulation/MUX_8to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/MUX_8to1.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX_8to1
+-- Compiling architecture behavioral of MUX_8to1
+
+} {} {}} D:/RISCV/simulation/RCA.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/RCA.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RCA
+-- Compiling architecture STRUCTURAL of RCA
+
+} {} {}} D:/RISCV/simulation/FU_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/FU_package.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package FU_package
+
+} {} {}} D:/RISCV/simulation/datapath.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/datapath.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Loading package ALU_package
+-- Loading package RISCV_package
+-- Loading package CU_package
+-- Loading package FU_package
+-- Loading package HDU_package
+-- Compiling entity datapath
+-- Compiling architecture structural of datapath
+
+} {} {}} D:/RISCV/simulation/FA.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/FA.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture structural of FA
+
+} {} {}} D:/RISCV/simulation/adder_subtractor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/adder_subtractor.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Compiling entity adder_subtractor
+-- Compiling architecture structural of adder_subtractor
+
+} {} {}} D:/RISCV/simulation/RF.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/RF.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package my_package
+-- Compiling entity RF
+-- Compiling architecture behavioral of RF
+
+} {} {}} D:/RISCV/simulation/PG_network.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/RISCV/simulation/PG_network.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PG_NETWORK
+-- Compiling architecture STRUCTURAL of PG_NETWORK
+
+} {} {}} D:/RISCV/simulation/TB_RISCV.v {1 {vlog -work work -vopt -stats=none D:/RISCV/simulation/TB_RISCV.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module TB_RISCV
+
+Top level modules:
+	TB_RISCV
+
+} {} {}}
