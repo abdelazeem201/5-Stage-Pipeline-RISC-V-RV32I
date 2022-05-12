@@ -58,8 +58,6 @@ are no non-synthesizable VHDLs.
 
 ![Figure 2.1: Testbench structure.](https://github.com/abdelazeem201/Design-and-Implementation-of-RISCV-processor-with-5-pipeline-stages./blob/main/Figures/testbench.png)
  
- *End of the simulation of the program without the custom instruction.*
- 
 ![(a) Pre-synthesis.](https://github.com/abdelazeem201/Design-and-Implementation-of-RISCV-processor-with-5-pipeline-stages./blob/main/Figures/simulation.png)
 
 
