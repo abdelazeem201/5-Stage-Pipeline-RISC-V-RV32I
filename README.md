@@ -49,7 +49,7 @@ data between the pipeline stages.
 diction signal (received by the BPU inside the datapath) it has the ability to stop some pipeline
 stages and to discard an already fetched instruction, in order to avoid any kind of hazard.
 
-![Figure 1.1: RISC-V top view diagram.](https://github.com/abdelazeem201/Design-and-Implementation-of-RISCV-processor-with-5-pipeline-stages./blob/main/Figures/RISC-V.png)
+![Figure 1.1: RISC-V top view diagram](https://github.com/abdelazeem201/Design-and-Implementation-of-RISCV-processor-with-5-pipeline-stages./blob/main/Figures/RISC-V.png)
 
 # Testbench
 
