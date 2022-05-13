@@ -1,8 +1,15 @@
 # Abstract
-The goal of this Project is to design a RISC-V processor with 5 pipeline stages. The lite version of the RISC-V processor supports only a limited subset of the whole RV32I instruction set, but in the design here reported all the standard instructions except ECALL, EBREAK, and FENCE are implemented. 
+The goal of this Project is to design a RISC-V processor with 5 pipeline stages. This version of the RISC-V processor supports only a limited subset of the whole RV32I instruction set, but in the design here reported all the standard instructions except ECALL, EBREAK, and FENCE are implemented. 
 
 The processor is tested by simulating the execution of a program that computes the minimum absolute value of an array of integers. After that, a custom instruction is added in order to compute the absolute value in a single clock cycle using some additional hardware. At this point the program is improved using the new instruction and simulated once again. Finally, a comparison between the two version is made in order to evaluate the advantages and the disadvantages of the two approaches. Both the version of the processor are synthesized in a 45nm standard-cell library and then place-and-routed in a physical design.
 
+Table of Contents
+=================
+* [Abstract](#Abstract)
+* [RISC-V Features](#Features)
+   * [Supported instruction set](#Supported instruction set)
+   	* [Memory and addressing space](#Memory and addressing space)
+   		* [Instruction Memory](#instruction-memory)
 # Features
 
 | 32-bit RISC CPU  | 
@@ -96,4 +103,4 @@ The designs are simulated three times: pre-synthesis, post-synthesis, and post-p
 1. [Digital Design and Computer Architecture, RISC-V Edition](https://www.elsevier.com/books/digital-design-and-computer-architecture/harris/978-0-12-820064-3)
 2. [Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 3. [York University - Computer Organization and Architecture (EECS2021E)](https://youtube.com/playlist?list=PL-Mfq5QS-s8iUJpNzCOtQKRfpswCrPbiW)
-
+4. [risc-v foundation](https://riscv.org/)
