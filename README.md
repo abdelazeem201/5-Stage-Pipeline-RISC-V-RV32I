@@ -7,8 +7,8 @@ Table of Contents
 =================
 * [Abstract](#Abstract)
 * [RISC-V Features](#Features)
-   * [Supported instruction set](#Supported instruction set)
-   * [Memory and addressing space](#Memory and addressing space)
+   * [Supported instruction set](#Supported-instruction-set)
+   * [Memory and addressing space](#Memory-and-addressing-space)
    * [Instruction Memory](#instruction-memory)
 # Features
 
@@ -58,7 +58,7 @@ stages and to discard an already fetched instruction, in order to avoid any kind
 
 ![Figure 1.1: RISC-V top view diagram](https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/blob/main/Figures/riscv.png)
 
-# Supported instruction set
+# Supported-instruction-set
 1. Register-to-register-operations: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND.
 2. Immediate operations: ADDI, SLLI, SLTI, SLTIU, XORI, SRLI, SRAI, ORI, ANDI.
 3. Load: LB, LH, LW, LBU, LHU.
@@ -67,7 +67,7 @@ stages and to discard an already fetched instruction, in order to avoid any kind
 6. Jump: JAL, JALR.
 7. Upper immediate operations: AUIPC, LUI.
 
-# Memory and addressing space
+# Memory-and-addressing-space
 Both the memories (IRAM and DRAM) are simulated with a VHDL file only for the testbench, because
 they are not synthesizable with the used library and anyway they are designed to be connected from
 the outside.
