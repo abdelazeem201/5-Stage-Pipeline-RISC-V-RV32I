@@ -8,8 +8,8 @@ Table of Contents
 * [Abstract](#Abstract)
 * [RISC-V Features](#Features)
    * [Supported instruction set](#Supported instruction set)
-   	* [Memory and addressing space](#Memory and addressing space)
-   		* [Instruction Memory](#instruction-memory)
+   * [Memory and addressing space](#Memory and addressing space)
+   * [Instruction Memory](#instruction-memory)
 # Features
 
 | 32-bit RISC CPU  | 
