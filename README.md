@@ -1,3 +1,28 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/RISC-V-logo.svg" alt="Logo" width="200" height="100">
+
+  <h1 align="center">RISCV-Pipeline-CPU-Implimentation</h1>
+
+  <p align="center">
+    This is the RISC-V ISA implementation 
+    <br />
+    <a href="https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/tree/main/Documentations"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/issues">Report Bug</a>
+    ·
+  </p>
+</p>
+
 # Abstract
 The goal of this Project is to design a RISC-V processor with 5 pipeline stages. This version of the RISC-V processor supports only a limited subset of the whole RV32I instruction set, but in the design here reported all the standard instructions except ECALL, EBREAK, and FENCE are implemented. 
 
@@ -106,3 +131,18 @@ The designs are simulated three times: pre-synthesis, post-synthesis, and post-p
 2. [Computer Organization and Design RISC-V Edition](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4)
 3. [York University - Computer Organization and Architecture (EECS2021E)](https://youtube.com/playlist?list=PL-Mfq5QS-s8iUJpNzCOtQKRfpswCrPbiW)
 4. [risc-v foundation](https://riscv.org/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I.svg?style=for-the-badge
+[contributors-url]: https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I.svg?style=for-the-badge
+[forks-url]: https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/network/members
+[stars-shield]: https://img.shields.io/github/stars/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I.svg?style=for-the-badge
+[stars-url]: https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/stargazers
+[issues-shield]: https://img.shields.io/github/issues/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I.svg?style=for-the-badge
+[issues-url]: https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/issues
+[license-shield]: https://img.shields.io/github/license/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I.svg?style=for-the-badge
+[license-url]: https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/ahmed-abdelazeem/
