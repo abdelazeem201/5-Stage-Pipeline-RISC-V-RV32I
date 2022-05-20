@@ -10,3 +10,4 @@ set_output_delay 0.5 -max -clock CLK [ all_outputs ]
 # output load equal to the buffer input capacitance of the library
 set OUT_LOAD [ load_of NangateOpenCellLibrary / BUF_X4 /A]
 set_load $OUT_LOAD [ all_outputs ]
+set_dont_touch_network CLK
