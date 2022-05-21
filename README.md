@@ -37,6 +37,8 @@ Table of Contents
    * [Supported instruction set](#Supported-instruction-set)
    * [Memory and addressing space](#Memory-and-addressing-space)
    * [Instruction Memory](#instruction-memory)
+* [Synthesis](#Synthesis)
+* [Placement and Route](#PnR)
 # Features
 
 | 32-bit RISC CPU  | 
@@ -123,7 +125,9 @@ The designs are simulated three times: pre-synthesis, post-synthesis, and post-p
 
 ![Figure 2.2 Pre-synthesis.](https://github.com/abdelazeem201/5-Stage-Pipeline-RISC-V-RV32I/blob/main/Figures/simulation.png)
 
+# Synthesis
 
+# PnR
 
 
 # Reference
